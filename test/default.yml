@@ -1,0 +1,5 @@
+---
+- name: wrapper playbook for kitchen testing
+  hosts: testing
+  roles:
+    - ansible-role-mailhog

@@ -1,0 +1,10 @@
+[Unit]
+Description=MailHog Service
+After=syslog.target network.target
+
+[Service]
+ExecStart={{ mailhog_path }}/mailhog
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

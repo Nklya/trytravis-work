@@ -1,0 +1,10 @@
+---
+# tasks file for mailhog
+
+- name: Stop if there is no Systemd
+  fail:
+    msg: "This role works only with Systemd enabled OS!"
+  when: ansible_service_mgr != 'systemd'
+
+- name: Install {{ mailhog_run }} mode
+  import_tasks: "{{ mailhog_run }}.yml"

@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+
+gem 'inspec'
+gem 'test-kitchen'
+gem 'kitchen-ansible'
+gem 'kitchen-inspec'
+gem 'kitchen-docker'

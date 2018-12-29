@@ -1,0 +1,20 @@
+galaxy_info:
+  author: Nikolay Antsiferov
+  description: Install & config MailHog
+  company: Cndies
+  issue_tracker_url: 'https://github.com/cndies/ansible-role-mailhog/issues'
+  license: MIT
+  min_ansible_version: 2.5
+
+  platforms:
+    - name: Ubuntu
+      versions:
+        - xenial
+        - bionic
+
+  galaxy_tags:
+    - mail
+    - mailhog
+
+
+dependencies: []

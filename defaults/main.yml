@@ -1,0 +1,9 @@
+---
+# defaults file for mailhog
+
+mailhog_path: /usr/local/bin
+mailhog_version: v1.0.0
+mailhog_releases: https://github.com/mailhog/MailHog/releases/download/
+mailhog_run: binary
+
+# TODO: Add configuration
